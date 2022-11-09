@@ -1,8 +1,8 @@
 ##########################################
 ##########################################
-### https://github.com/keralahacker/termux3.0      ###
+### https://github.com/rakeshtanwar/Devil3.0      ###
 ###                                                                                      ###
-###                  https://keralahacker.github.io               ###
+###                  https://rakeshtanwar.github.io               ###
 ###                                                                                      ###
 ##########################################
 ##########################################
@@ -46,18 +46,18 @@ echo "   " >> /data/data/com.termux/files/usr/etc/motd
 echo "  zsh
                 figlet see you | pv -qL 100
                 echo "......................................!" | pv -qL 100
-                echo "hack_with_vyshu" | pv -qL 15
+                echo "Mr Rakesh" | pv -qL 15
                 exit
-                echo "hack_with_vyshu" | pv -qL 500  " >> .bashrc
+                echo "Mr Rakesh" | pv -qL 500  " >> .bashrc
 ## echoing .zshrc file
 echo "
 sleep 3
 neofetch | pv -qL 500
 sleep 4
 clear
-toilet -f smblock --filter border:metal 'Termux 3.0v'
-PROMPT=$'%F{%(#.blue.green)}👽[root]-[%B%F{reset}%b%F{%(#.blue.green)}㉿]\n└─%B%(#.%F{red}#.%F{blue}$)%b%F{reset} '
+toilet -f smblock --filter border:metal 'Devil'
+PROMPT=$'%F{%(#.blue.green)}👽[root]-[%B%F{reset}%b%F{%(#.blue.green)}]\n└─%B%(#.%F{red}#.%F{blue}$)%b%F{reset} '
     RPROMPT=$'%(?.. %? %F{red}%B⨯%b%F{reset})%(1j. %j %F{yellow}%B⚙%b%F{reset}.)'  " >> .zshrc
 sleep 2
-rm -rf termux3.0
+rm -rf Devil3.0
 exit
